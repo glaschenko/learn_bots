@@ -25,6 +25,7 @@ public class TestSlackBot {
         } catch (IOException e) {
             throw new IllegalStateException(e);
         }
+
     }
 
     private Properties readProperties() {
